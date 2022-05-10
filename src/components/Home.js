@@ -6,7 +6,11 @@ import Navigation from './Navigation';
 function Home() {
   const { posts } = useSelector((state) => state.Reducer);
   const dispatch = useDispatch();
-  return <div>Home Screen</div>;
+  return (
+    <div className="container-fluid main-container">
+      <Navigation />
+    </div>
+  );
 }
 
 export default Home;
