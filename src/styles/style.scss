@@ -1,0 +1,40 @@
+$primaryColor: #202124;
+$secondaryColor: #ffffff;
+$projectBtn: #8ab4f8;
+$codeBtn: #8ab4d8;
+$projectBackground: #000;
+
+body {
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  a {
+    color: $secondaryColor;
+  }
+}
+
+.main-container {
+  .project-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid $secondaryColor;
+
+    .project-container-row {
+      .project-col {
+        padding: 1rem;
+        color: $secondaryColor;
+
+        .btn-project {
+          margin: 1rem;
+          padding: 0.5rem;
+          background-color: $projectBtn;
+        }
+        .btn-code {
+          margin: 1rem;
+          padding: 0.5rem;
+          background-color: $codeBtn;
+        }
+      }
+    }
+  }
+}

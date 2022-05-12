@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-color: #202124;
+  color: #ffffff;
+}
+
+body a {
+  color: #ffffff;
+}
+
+.main-container .project-container {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #ffffff;
+}
+
+.main-container .project-container .project-container-row .project-col {
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.main-container .project-container .project-container-row .project-col .btn-project {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #8ab4f8;
+}
+
+.main-container .project-container .project-container-row .project-col .btn-code {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #8ab4d8;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,9 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Navigation() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <>
       <Navbar className="custom-nav">
@@ -15,7 +15,7 @@ function Navigation() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="">Add Project</Nav.Link>
-              <Nav.Link href="">Log In</Nav.Link>
+              <Nav.Link href="/login">Log In</Nav.Link>
               <Nav.Link href="">Sign Out</Nav.Link>
             </Nav>
           </Navbar.Collapse>
